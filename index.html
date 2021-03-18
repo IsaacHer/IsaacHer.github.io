@@ -1,102 +1,94 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title> Presentación Personal </title>
+
 	<meta charset="utf-8">
-
-	<link rel="stylesheet" href="css/estiloOne.css"/>
-	
+	<title>Presentación con Estilo</title>
+	<link rel="stylesheet" type="text/css" href="css/estiloTwo.css">
 </head>
-	
-	<center>
-     <header>
-     	<div>
-     		<img src="imagenes/logoAgg.jpg" style=width:250px;height:125px;>
-     	</div>
-     	<div>
-		<h1> Johan Isaac Hernandez Alvarez</h1> 
-     	<h2> 27/04/2000</h2>
-     	</div>
-     	
+<body>
+	<header>
+		<div class="logoTipo">
+			<img src="imagenes/logo1.jpg">
+		</div>
 
-     </header> 
+		<div class="music">
+			<h3> Temon </h3>
+			<audio controls autoplay>
+                        <source src="Hozier.mp3" type="audio/ogg">
+                        <source src="Hozier.mp3" type="audio/mpeg">
+                       Your browser does not support the audio element.
+                       </audio>	
+		</div>
 
-    
-	<body>
-	<section id="content">
+		<nav>
+				<h1> Johan Isaac Hernandez Alvarez </h1>
+				<h2> 27/04/2000</h2>
+				
+		</nav>
+
 		
-		<article>
-			<h2>Mi Infancia</h2>
-			<p>Actualmente, tengo 20 años, trabajo, estudio y como habito principal
+	</header>
+
+	<section class="main">
+		<section class="articles">
+			<article>
+				<h2>Mi Infancia</h2>
+				<p>Actualmente, tengo 20 años, trabajo, estudio y como habito principal
 	   		hago ejercicio a diario. Mis padres hicieron de mi infancia un recuerdo
 	   		muy grato, estudie en una escuela de barrio donde mi abuela a diario
 	   		me llevaba la media mañana.A los seis años viaje a Santa Marta, a los
 	   		17 conoci el Valle y el año pasado Medellin y nuevamente viaje a Palmira,
 	   		Valle. Una vez a la semana juego futbol y me transporto en bicicleta al 
 	   		trabajo.</p>
-		</article> 
-
-	</br>
-
-		<article>
-			<h2>Lo que Llevo de vida Universitaria</h2>
-			<p> Hasta este momento la carrera ha significado un reto desde siempre,
+			</article>
+			<article>
+				<h2>Lo que Llevo de vida Universitaria</h2>
+				<p>Hasta este momento la carrera ha significado un reto desde siempre,
 			cada materia de la linea tiene una complejidad un poco mayor a medida
 			que avanza el tiempo, a veces se nos escapan temas que debieron ser
 			aprendidos de forma autonoma y es un poco mas complejo el siguiente 
 			nivel. He tenido profesores excelentes a lo largo de la linea. Lo 
 			mas complicado hasta ahora, ha sido afrontar mis propias fallas. Y 
 			que mas me gusta, son las materias de desarrolo, las de gerencia no.</p>
-		
-		</article>
-	</br>
-		<article>
-			<h2>Mi Proyección en 5 años</h2>
-			<p>En cinco años me veo graduado y con un par de años de experiancia, 
-			fuera de la ciudad, realizando estudios de postgrado y cursos de 
-			actualizacion.</p>		
+			</article>
 
-		</article>
+			<article>
+				<h2>Mi Proyección en 5 años</h2>
+				<p>En cinco años me veo graduado y con un par de años de experiancia, 
+			fuera de la ciudad, realizando estudios de postgrado y cursos de actualizacion.</p>
+			</article>  
 
-	</section>	   
-	
-	</center>
-	
-		<div class="lista1">
+		</section>
+
+		<aside>
 			<h2> Hobbies </h2>
-			</br>
 			<ul>
 				<li> Escuchar Musica </li>
 				<li> Ver Videos de tecnologia </li>
 				<li> Ver anime </li>
 				<li> Jugar futbol </li>
 			</ul>
-		</div>
-			
-		<div class="lista2">
+
 			<h2> Peliculas Favoritas </h2>
-			</br>
 			<ul>
 				<li> Forrest Gump </li>
 				<li> El lobo de Wall Street </li>
 				<li> Your Name </li>
 				<li> El viaje de Chihiro </li>
 			</ul>
-		</div>
-	
-	<div class="cancion">
-		<h3> Temazo 1 </h3>
-			<audio controls autoplay>
-                        <source src="Hozier.mp3" type="audio/ogg">
-                        <source src="Hozier.mp3" type="audio/mpeg">
-                       Your browser does not support the audio element.
-                       </audio>	
+		</aside>
 
-	</div>
+		<div class="link">
+			<a href="https://isaacher.github.io/formulario/"><h2>Form: Enviar Email</h2></a>	
+		</div>
 		
-    	
+	</section>
+
 	
-	<table>
-		
+		<footer>
+			<h2>Materias Fav</h2>
+			<table>
 		<tr>
 			<th> Materia </th>
 			<th> Nota </th>
@@ -129,8 +121,9 @@
 		<tr>
 			<td> Estructuras de datos</td>
 			<td> 4.2 </td>
-			<td> Me diverti mucho y aprendi.</td>
-				 
-		</tr>    
+			<td> Me diverti mucho y aprendi.</td> 
+		</tr>
+		</footer>
+
 </body>
 </html>
